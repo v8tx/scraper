@@ -1,0 +1,82 @@
+body {
+    background: #FFFFFF;
+    text-align: center;
+}
+
+h1 {
+    font-size: 2em;
+    color: #5e80e5;
+}
+
+h2 {
+    font-size: 1.7em;
+    color: white;
+}
+
+
+/* Class Styling for Articles */
+
+.storyLinks {
+    text-decoration: none;
+    text-align: center;
+}
+.scrape {
+    text-align: left;
+    color: orange;
+}
+.articleBox {
+    width: 50%;
+    height: auto;
+    border: 1px solid #ccc;
+    margin: 50px;
+    float: left;
+    overflow: auto;
+    z-index: -10 !important;
+}
+.scroll {
+    overflow: scroll;
+}
+
+.banner {
+    background-color: #666666;
+    margin-top: 0;
+    height: 100px;
+}
+.commentAdd {
+    margin: 10px;
+}
+.commentInput {
+    margin-top: 0px;
+    width: 97%;
+    z-index: 100;
+}
+.comm {
+    background-color: #0080FF;
+    color: white;
+    padding: 10px;
+    border-radius: 20px;
+    width: 70%;
+    margin: 10px;
+}
+.notes {
+  margin-top: 0;
+  background-color: #004080;
+  z-index: 1000 !important;
+}
+textarea,
+input {
+    display: block;
+    width: 100%;
+    background-color: white;
+    margin-top: 10px;
+}
+
+input {
+    height: 52px;
+    font-size: 16px;
+}
+
+textarea {
+    height: 25px;
+    font-size: 18px;
+}
